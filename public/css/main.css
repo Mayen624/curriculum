@@ -9,8 +9,8 @@
     --shadow: rgba(157, 153, 153, 0.8) 0 0 10px;
 }
 
-*{
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+body{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important; 
 }
 
 h2{
@@ -172,3 +172,65 @@ h2{
     width: 1px;
     background-color: #979ba2;
 }
+
+.experience{
+    margin: 30px 0px 30px 30px;
+}
+
+.experience p{
+    margin: 10px 10px 10px 20px;
+}
+
+.experience .experience__title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+}
+
+.experience__info{
+    justify-content: space-between;
+    margin-right: 40px;
+    display: flex;
+}
+
+.experience .experience__info .subTitle__experience p{
+    margin: 10px 10px 10px 20px;
+    font-weight: bolder;
+    width: 355px;
+}
+
+.experience__sysnet {
+    display: flex;
+    align-items: center;
+}
+
+.experience__sysnet p{
+    color: var(--text-grey);
+}
+
+.experience__sysnet .experience__active{
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.experience__sysnet img {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+
+.references{
+    margin: 30px 0px 30px 30px;
+}
+
+.references .references__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+}
+
+.references p{
+    margin: 10px 10px 10px 20px;
+}
+
+
