@@ -20,8 +20,9 @@ h2{
 
 
 .main__content{
-    margin: 30px 80px 0px 80px;
+    margin: 30px 40px 0px 40px;
     box-shadow: var(--shadow);
+    padding-bottom: 30px;
     border-radius: 2px;
     /* border: 2px solid white; */
 }
@@ -42,6 +43,11 @@ h2{
     border-radius: 2px;
     width: 200px;
     height: 200px;
+}
+
+.personal_info a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .info{
@@ -132,6 +138,11 @@ h2{
     color: var(--text-grey);
 }
 
+.formation__content .formation__chalelo a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .formation__shool{
     display: flex;
    justify-content: space-between;
@@ -179,6 +190,11 @@ h2{
 
 .experience p{
     margin: 10px 10px 10px 20px;
+}
+
+.experience .experience__sysnet a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .experience .experience__title{
@@ -232,5 +248,122 @@ h2{
 .references p{
     margin: 10px 10px 10px 20px;
 }
+
+.right__content .divisor__horzonatal{
+    height: 0.5px;
+    background-color: #979ba2;
+    margin: 30px 30px 30px 30px;
+}
+
+.idioms{
+    margin: 30px 30px 0px 0px;
+}
+
+.idioms p {
+    margin: 20px 20px 20px 10px;
+}
+
+.idioms label {
+    margin: 20px 20px 20px 50px;
+}
+
+.idioms .idioms__title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px 20px 50px;
+}
+
+.idioms .idioms__active {
+    color: var(--text-grey);
+}
+
+.idioms__inglish {
+    display: inline-flex;
+}
+
+.competiences{
+    /* border: 1px solid black; */
+    margin: 30px 30px 0px 0px;
+}
+
+.competencies__title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px 20px 50px;
+}
+
+.comptencies__technologies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 60px);
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 40px;
+    width: 200px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.comptencies__technologies img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+@media (max-width: 1049px) {
+
+
+    .divisor__vertical{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .comptencies__technologies{
+        grid-auto-rows: minmax(50px, 50px);
+        width: 150px;
+    }
+
+    .experience .experience__info .subTitle__experience p {
+        width: 250px;
+    }
+
+    .experience .experience__sysnet .experience__active{
+        width: 350px;
+    }
+
+    .divisor__horzonatal{
+        height: 1px;
+        background-color: #979ba2;
+        margin: 30px 30px 30px 30px;
+    }
+
+    .right__content .divisor__horzonatal{
+        height: 1px;
+        background-color: #979ba2;
+        margin: 30px 30px 30px 30px;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .divisor__vertical{
+        display: none;
+    }
+
+    .divisor__horzonatal{
+        height: 1px;
+        background-color: #979ba2;
+        margin: 30px 30px 30px 30px;
+    }
+
+    .right__content .divisor__horzonatal{
+        height: 1px;
+        background-color: #979ba2;
+        margin: 30px 30px 30px 30px;
+    }
+}
+
 
 
