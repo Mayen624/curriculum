@@ -24,11 +24,12 @@ h2{
     box-shadow: var(--shadow);
     padding-bottom: 30px;
     border-radius: 2px;
-    /* border: 2px solid white; */
+    /* border: 2px solid black; */
 }
 
 
 .personal_info{
+    width: 100%px;
     border-radius: 2px;
     display: flex;
     background-color: var(--black-grey);
@@ -51,9 +52,7 @@ h2{
 }
 
 .info{
-    /* border: 2px solid white; */
-    display: inline-block;
-    height: 150px;
+    width: 100%;
     color: #979ba2;
 }
 
@@ -80,223 +79,166 @@ h2{
 }
 
 .left__content{
-    max-width: 1100px !important; 
+    width: 80%;
 }
 
 .right__content{
-    margin-left: 30px;
-    width: 400px;
+    width: 30%;
 }
 
-.profile{
-    /* border: 1px solid black; */
-    margin: 30px 0px 30px 30px;
-}
-
-.profile .profile__title{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 20px 20px 20px;
-}
-
-.profile p{
-    margin: 10px 10px 10px 20px;
-}
-
-.training{
-    /* border: 1px solid black; */
-    margin: 30px 0px 30px 30px;
-}
-
-.training .training__title{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 20px 20px 20px;
-}
-
-.formation__content p{
-    margin: 10px 10px 10px 20px;
-}
-
-.formation__content img {
-    width: 35px;
-    height: 35px;
-}
-
-.subTitle__formation{
-    font-weight: bold;
-    justify-content: space-between;
-}
-
-.date__formation{
-    margin-right: 40px;
-    justify-content: center;
-}
-
-.formation__content .formation__chalelo .formation__active{
-    width: 355px;
-    color: var(--text-grey);
-}
-
-.formation__content .formation__chalelo a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.formation__shool{
-    display: flex;
-   justify-content: space-between;
-}
-
-.formation__chalelo {
-    display: flex;
-    align-items: center;
-}
-
-.personalData{
-    /* border: 1px solid black; */
-    margin: 30px 30px 0px 0px;
-}
-
-.personalData .personalData__title{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 20px 20px 50px;
-}
-
-.personalData p {
-    margin: 20px 20px 20px 50px;
-}
-
-.personalData .personalData__active{
-    color: var(--text-grey);
-}
-
-.divisor__horzonatal{
-    height: 1px;
-    background-color: #979ba2;
-    margin: 30px 30px 30px 30px;
-}
-
-.divisor__vertical{
-    margin: 30px 10px 30px 50px;
-    width: 1px;
-    background-color: #979ba2;
-}
-
-.experience{
-    margin: 30px 0px 30px 30px;
-}
-
-.experience p{
-    margin: 10px 10px 10px 20px;
-}
-
-.experience .experience__sysnet a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.experience .experience__title{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 20px 20px 20px;
-}
-
-.experience__info{
-    justify-content: space-between;
-    margin-right: 40px;
-    display: flex;
-}
-
-.experience .experience__info .subTitle__experience p{
-    margin: 10px 10px 10px 20px;
-    font-weight: bolder;
-    width: 355px;
-}
-
-.experience__sysnet {
-    display: flex;
-    align-items: center;
-}
-
-.experience__sysnet p{
-    color: var(--text-grey);
-}
-
-.experience__sysnet .experience__active{
-    margin: 10px 20px 10px 20px;
-    
-}
-
-.experience__sysnet img {
-    border-radius: 50%;
-    width: 37px;
-    height: 37px;
-}
-
-.references{
-    margin: 30px 0px 30px 30px;
-}
-
-.references .references__title {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 20px 20px 20px;
-}
-
-.references p{
-    margin: 10px 10px 10px 20px;
-}
-
-.right__content .divisor__horzonatal{
+.divisor__horizontal {
     height: 0.5px;
     background-color: #979ba2;
     margin: 30px 30px 30px 30px;
 }
 
+.divisor__vertical{
+    margin: 30px 40px 30px 40px;
+    width: 0.5px;
+    background-color: #979ba2;
+}
+
+.profile{
+    margin: 30px 30px 30px 30px;
+}
+
+.profile .profile__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formation{
+    margin: 30px 30px 30px 30px;
+}
+
+.formation__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formation__shool{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formation__shool .formation__subTitle{
+    font-weight: bolder;
+}
+
+.formation__shool .formation__date{
+    text-decoration: underline;
+}
+
+.formation__chaleco{
+    display: flex;
+    justify-items: center;
+}
+
+.formation__chaleco img {
+    width: 40px;
+    height: 40px;
+}
+.formation__chaleco a {
+    color: var(--text-grey);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.experience{
+    margin: 30px 30px 30px 30px;
+}
+
+.experience .experience__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experience__sysnet {
+    justify-content: space-between;
+    display: flex;
+}
+
+.experience__sysnet .experience__sysnet__subTtile{
+    font-weight: bolder;
+}
+
+.experience__sysnet .experience__sysnet__date{
+    text-decoration: underline;
+}
+
+.experiece__sysnet__info{
+    display: flex;
+}
+.experiece__sysnet__info img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px ; 
+}
+
+.experiece__sysnet__info a {
+    color: var(--text-grey);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.references{
+    margin: 30px 30px 30px 30px;
+}
+
+.references .references__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personalInfo {
+    margin: 30px 0px 0px 30px;
+}
+
+.personalInfo .personalInfo__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personalInfo .personalInfo__active{
+    color: var(--text-grey);
+}
+
 .idioms{
-    margin: 30px 30px 0px 0px;
-}
-
-.idioms p {
-    margin: 20px 20px 20px 10px;
-}
-
-.idioms label {
-    margin: 20px 20px 20px 50px;
+    margin: 30px 0px 0px 30px;
 }
 
 .idioms .idioms__title{
     font-size: 20px;
     font-weight: bold;
-    margin: 20px 20px 20px 50px;
 }
+
+.idioms .idioms__inglish{
+    display: flex;
+}
+
+.idioms .idioms__label{
+    margin-right: 20px;
+}
+
 
 .idioms .idioms__active {
     color: var(--text-grey);
+    margin: 0;
 }
 
-.idioms__inglish {
-    display: inline-flex;
+.competencies {
+    margin: 30px 0px 0px 30px;
 }
 
-.competiences{
-    /* border: 1px solid black; */
-    margin: 30px 30px 0px 0px;
-}
-
-.competencies__title{
+.competencies .competencies__title {
     font-size: 20px;
     font-weight: bold;
-    margin: 20px 20px 20px 50px;
 }
 
 .comptencies__technologies{
     display: grid;
     grid-template-columns: repeat(auto-fill, 60px);
     grid-auto-rows: minmax(50px, auto);
-    margin-left: 40px;
     width: 200px;
     padding: 10px;
     gap: 10px;
@@ -312,62 +254,23 @@ h2{
     border-radius: 4px;
 }
 
-@media (max-width: 1049px) {
+@media screen and (max-width: 1280px){
 
-
-    .divisor__vertical{
-        margin-top: 30px;
-        margin-bottom: 30px;
+    .personalInfo{
+        margin-left: 0;
     }
 
-    .comptencies__technologies{
-        grid-auto-rows: minmax(50px, 50px);
-        width: 150px;
+    .idioms {
+        margin-left: 0;
     }
 
-    .experience .experience__info .subTitle__experience p {
-        width: 250px;
-    }
-
-    .experience .experience__sysnet .experience__active{
-        width: 350px;
-    }
-
-    .divisor__horzonatal{
-        height: 1px;
-        background-color: #979ba2;
-        margin: 30px 30px 30px 30px;
-    }
-
-    .right__content .divisor__horzonatal{
-        height: 1px;
-        background-color: #979ba2;
-        margin: 30px 30px 30px 30px;
+    .competencies{
+        margin-left: 0;
     }
 }
 
-@media (max-width: 915px) {
 
-    *{
-        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important; 
-    }
 
-    .divisor__vertical{
-        display: none;
-    }
-
-    .divisor__horzonatal{
-        height: 1px;
-        background-color: #979ba2;
-        margin: 30px 30px 30px 30px;
-    }
-
-    .right__content .divisor__horzonatal{
-        height: 1px;
-        background-color: #979ba2;
-        margin: 30px 30px 30px 30px;
-    }
-}
 
 
 
