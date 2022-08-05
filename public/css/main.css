@@ -348,6 +348,10 @@ h2{
 
 @media (max-width: 915px) {
 
+    *{
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important; 
+    }
+
     .divisor__vertical{
         display: none;
     }
