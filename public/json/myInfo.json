@@ -1,0 +1,64 @@
+{
+    "relevantInfo": {
+        "name": "Julio André Mayen Aguirré",
+        "profession": "Programador Junio - Estudiante",
+        "email": "mayen624.dev@gmail.com",
+        "phone": "+503 77879752",
+        "location": "El Salvador - Santa Tecla, la libertad"
+    },
+    "profile": {
+        "data": "Soy un estudiante entusiasta de desarrollo de software con un enfoque sólido en el backend. Me apasiona adquirir experiencia práctica y conocimientos en el desarrollo e implementación de soluciones web robustas. Mi objetivo es colaborar en equipos de desarrollo, donde pueda aplicar mis habilidades técnicas y trabajar en proyectos desafiantes. Durante mi formación académica, he adquirido experiencia en tecnologías clave para el backend, como PHP, JavaScript, Node.js y bases de datos relacionales como MariaDB. Además, he trabajado con bases de datos no relacionales como MongoDB, lo que me ha proporcionado una comprensión versátil del almacenamiento de datos en diferentes entornos. Mi objetivo a largo plazo es convertirme en un desarrollador backend altamente competente y seguir aprendiendo sobre las últimas tendencias y tecnologías en el campo. Estoy emocionado por sumergirme en un entorno de trabajo dinámico y colaborativo, donde pueda trabajar en equipo para desarrollar soluciones innovadoras y de alta calidad"
+    },
+    "training": {
+        "shool": {
+            "title": "Perfil",
+            "subTitle": "Estudiante de Bachillerato Tecnico en Informatica",
+            "location": "Colegio Salesiano Santa Cecilia, Santa Tecla",
+            "content": "Bachillerato en la especialidad de informatica, enfocada en la area de programación, redes y enfasis en el idioma Ingles.",
+            "date": "Ene 2019 / Oct 2022"
+        },
+        "university": {
+            "title": "Formación",
+            "subTitle": "Estudiante de ingenieria en desarrolo de software",
+            "location": "Universidad francisco gavidia, sede San Salvador",
+            "content": "",
+            "date": "Ene 2023 / cursando"
+        }
+    },
+    "experience": {
+        "sysnettek": {
+            "title": "Pasantia y contratación de medio tiempo",
+            "location": "Sysnet S.A de C.V; 63 av Sur, 128, San Salvador",
+            "content": "Asistente en mantenimiento de equipos de redes informaticas y desarrollador web.",
+            "references": {
+                "namePerson": "Omer Lopez",
+                "company": "Sysnet S.A de S.V, San Salvador",
+                "phone": "+503 2201 4700"
+            }
+        }
+    },
+    "personalData": {
+        "birth_date": "22 de enero de 2003",
+        "place_birth": "La Habana, Cuba",
+        "gender": "Masculino",
+        "nationality": "Cuabana - Salvadoreña",
+        "civil_status": "Soltero"
+    },
+    "idioms": {
+        "spanish": "Nativo",
+        "english": "Intermedio"
+    },
+    "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Bootstrap",
+        "NodeJS",
+        "mongoDB",
+        "MariaDB",
+        "GitHub",
+        "Handlebars",
+        "EJS"
+    ]
+}

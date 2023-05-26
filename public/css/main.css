@@ -36,13 +36,13 @@ h2{
 
 .img{
     width: 200px;
-    height: 200px;
+    height: 220px;
 }
 
 .personal_info img{
     border-radius: 2px;
     width: 200px;
-    height: 200px;
+    height: 220px;
 }
 
 .personal_info a {
@@ -133,11 +133,29 @@ h2{
     justify-items: center;
 }
 
+.formation__ufg{
+    display: flex;
+    justify-items: center;
+}
+
 .formation__chaleco img {
     width: 40px;
     height: 40px;
 }
+
+.formation__ufg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .formation__chaleco a {
+    color: var(--text-grey);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.formation__ufg a {
     color: var(--text-grey);
     text-decoration: none;
     margin-right: 20px;
@@ -213,6 +231,12 @@ h2{
 
 .idioms .idioms__inglish{
     display: flex;
+    margin-bottom: 15px;
+}
+
+.idioms .idioms__spanish{
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .idioms .idioms__label{
