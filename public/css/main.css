@@ -10,7 +10,9 @@
 }
 
 body{
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important; 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;
+    word-spacing: 0.25em;
+    line-height: 22px; 
 }
 
 h2{
@@ -62,7 +64,7 @@ h2{
 
 .info p {
     color: #999999;
-    margin: 0px 0px 30px 40px;
+    margin: 10px 0px 30px 40px;
 }
 
 .info span{
@@ -73,209 +75,7 @@ h2{
     padding: 8px 5px 5px 5px;
 }
 
-.content{
-    display: flex;
-}
 
-.left__content{
-    width: 80%;
-}
-
-.right__content{
-    width: 30%;
-}
-
-.divisor__horizontal {
-    height: 0.5px;
-    background-color: #979ba2;
-    margin: 30px 30px 30px 30px;
-}
-
-.divisor__vertical{
-    margin: 30px 40px 30px 40px;
-    width: 0.5px;
-    background-color: #979ba2;
-}
-
-.profile{
-    margin: 30px 30px 30px 30px;
-}
-
-.profile .profile__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.formation{
-    margin: 30px 30px 30px 30px;
-}
-
-.formation__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.formation__shool{
-    display: flex;
-    justify-content: space-between;
-}
-
-.formation__shool .formation__subTitle{
-    font-weight: bolder;
-}
-
-.formation__shool .formation__date{
-    text-decoration: underline;
-}
-
-.formation__chaleco{
-    display: flex;
-    justify-items: center;
-}
-
-.formation__ufg{
-    display: flex;
-    justify-items: center;
-}
-
-.formation__chaleco img {
-    width: 40px;
-    height: 40px;
-}
-
-.formation__ufg img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.formation__chaleco a {
-    color: var(--text-grey);
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.formation__ufg a {
-    color: var(--text-grey);
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.experience{
-    margin: 30px 30px 30px 30px;
-}
-
-.experience .experience__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.experience__sysnet {
-    justify-content: space-between;
-    display: flex;
-}
-
-.experience__sysnet .experience__sysnet__subTtile{
-    font-weight: bolder;
-}
-
-.experience__sysnet .experience__sysnet__date{
-    text-decoration: underline;
-}
-
-.experiece__sysnet__info{
-    display: flex;
-}
-.experiece__sysnet__info img{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px ; 
-}
-
-.experiece__sysnet__info a {
-    color: var(--text-grey);
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.references{
-    margin: 30px 30px 30px 30px;
-}
-
-.references .references__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.personalInfo {
-    margin: 30px 0px 0px 30px;
-}
-
-.personalInfo .personalInfo__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.personalInfo .personalInfo__active{
-    color: var(--text-grey);
-}
-
-.idioms{
-    margin: 30px 0px 0px 30px;
-}
-
-.idioms .idioms__title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.idioms .idioms__inglish{
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.idioms .idioms__spanish{
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.idioms .idioms__label{
-    margin-right: 20px;
-}
-
-
-.idioms .idioms__active {
-    color: var(--text-grey);
-    margin: 0;
-}
-
-.competencies {
-    margin: 30px 0px 0px 30px;
-}
-
-.competencies .competencies__title {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.comptencies__technologies{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 60px);
-    grid-auto-rows: minmax(50px, auto);
-    width: 200px;
-    padding: 10px;
-    gap: 10px;
-}
-
-.comptencies__technologies img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 4px;
-}
 
 .footer{
     text-align: center;
@@ -293,13 +93,6 @@ h2{
         margin-left: 0;
     }
 
-    .idioms {
-        margin-left: 0;
-    }
-
-    .competencies{
-        margin-left: 0;
-    }
 }
 
 
