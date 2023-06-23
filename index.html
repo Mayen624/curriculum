@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./public/css/main.css">
     <link rel="stylesheet" href="./public/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
-    <title>CV - Julio Mayen</title>
+    <title>Currículo - Julio Mayen</title>
 </head>
 
 <body>
@@ -14,25 +14,160 @@
     <!-- Contenedor pricipal -->
     <div class="main__content">
 
-        <div class="personal_info">
+        <section class="personal_info">
 
             <div class="img">
                 <img src="./public/img/ME.jpg" alt="Mayen.jpg">
             </div>
 
             <div class="info">
-                <h1>Julio André Mayen Aguirré</h1>
+                <h1 id="name"></h1>
                 <strong>
-                    <p>Programador Junior - Estudiante</p>
+                    <p id="profession"></p>
                 </strong>
 
-                <span><i class="fas fa-envelope"></i> <a
-                        href="mailto: mayen624.dev@gmail.com">mayen624.dev@gmail.com</a></span>
-                <span><i class="fas fa-phone"></i> <a href="tel:+503 77879752">+503 77879752</a></span><br>
+                <span><i class="fas fa-envelope"></i> <a id="email" href="mailto:mayen624.dev@gmail.com"></a></span>
+                <span><i class="fas fa-phone"></i> <a id="phone" href="tel:+503 77879752"></a></span><br>
                 <span><i class="fas fa-map-marker-alt"></i></i> El Salvador - Santa Tecla, la libertad</span>
             </div>
 
-        </div>
+        </section>
+
+        <section class="container">
+
+            <div class="left">
+
+                <div class="profile">
+                    <h2>Perfil</h2>
+                    <p id="profile-content"></p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="formation">
+                    <h2>Formacíon</h2>
+
+                    <div class="shool">
+                        <div class="inline">
+                            <h3 id="title-shool"></h3>
+                            <p id="shool-date"></p>
+                        </div>
+
+                        <div class="inline__short">
+                            <a class="location" id="shool-location" href="https://www.santacecilia.edu.sv/"></a>
+                            <img src="./public/img/Cheleco.jpg" alt="chaleco.jpg">
+                        </div>
+                        <p id="shool-content"></p>
+                    </div>
+
+                    <div class="university">
+                        <div class="inline">
+                            <h3 id="university-title"></h3>
+                            <p id="university-date"></p>
+                        </div>
+
+                        <div class="inline__short">
+                            <a class="location" id="university-location" href="https://ufg.edu.sv/"></a>
+                            <img style="border-radius: 50%;" src="./public/img/ufg-logo.jpg" alt="UFG.jpg">
+                        </div>
+                        <p id="university-content"></p>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="experience">
+                    <h2>Experiencia</h2>
+                    <div class="sysnettek">
+
+                        <div class="inline">
+                            <h3 id="sysnet-title"></h3>
+                            <p id="sysnet-date"></p>
+                        </div>
+
+                        <div class="inline__short">
+                            <a class="location" id="sysnet-location" href="https://www.santacecilia.edu.sv/"></a>
+                            <img style="border-radius: 50%;" src="./public/img/sysnet-logo.jpg" alt="sysnet.jpg">
+                        </div>
+
+                        <p id="sysnet-content"></p>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="proyects">
+                    <h2>Proyectos</h2>
+
+                    <div class="youNotes">
+
+                        <div class="inline__short">
+                            <h3 id="youNotes-title"></h3>
+                            <img src="./public/img/notepad.png" alt="noteImg.png">
+                        </div>
+
+                        <p id="youNotes-description"></p>
+                        <p id="youNotes-technologies"></p>
+                        <a class="location" id="youNotes-URL" href="">Sitio web</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="dividerV"></div>
+
+            <div class="right">
+
+                <div class="personal__data">
+                    <h2>Datos personales</h2>
+
+                    <p>Fecha de nacimiento:</p>
+                    <p class="active" id="birthdate"></p>
+                    <p>Lugar de nacimiento:</p>
+                    <p class="active" id="place-birth"></p>
+                    <p>Genero:</p>
+                    <p class="active" id="gender"></p>
+                    <p>Nacinalidad:</p>
+                    <p class="active" id="nationality"></p>
+                    <p>Estado civil:</p>
+                    <p class="active" id="civil-state"></p>
+
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="idioms">
+                    <h2>Idiomas</h2>
+
+                    <p>Español:</p>
+                    <p class="active" id="spanish"></p>
+                    <p>Ingles:</p>
+                    <p class="active" id="english"></p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="skills">
+
+                    <h2>Habilidades</h2>
+
+                    <div class="techs">
+                        <img src="./public/img/icons/html-5.png" alt="HTML5.png" title="HTML-5">
+                        <img src="./public/img/icons/css-3.png" alt="CSS3.png" title="CSS-3">
+                        <img src="./public/img/icons/js.png" alt="JS.png" title="javaScript">
+                        <img src="./public/img/icons/php.png" alt="php.png" title="PHP">
+                        <img src="./public/img/icons/bootstrap.png" alt="bootstrap.png" title="Bootstrap">
+                        <img src="./public/img/icons/node-js.png" alt="node-js.png" title="Node.js">
+                        <img src="./public/img/icons/mongodb.png" alt="mongoDB.png" title="MongoDB">
+                        <img src="./public/img/icons/mysql.png" alt="MySql.png" title="MySql">
+                        <img src="./public/img/icons/github.png" alt="github.png" title="Github">
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
 
         <div class="footer">

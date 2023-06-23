@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
-:root{
+:root {
     --grey: #ccd2d3;
     --black: rgba(0, 0, 0, 0);
     --white: #ffff;
@@ -9,19 +9,19 @@
     --shadow: rgba(157, 153, 153, 0.8) 0 0 10px;
 }
 
-body{
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;
+body {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif !important;
     word-spacing: 0.25em;
-    line-height: 22px; 
+    line-height: 22px;
 }
 
-h2{
-  margin: 0;
-  padding: 20px 10px 20px 10px;  
+h2 {
+    margin: 0;
+    padding: 20px 10px 20px 10px;
 }
 
 
-.main__content{
+.main__content {
     margin: 30px 40px 0px 40px;
     box-shadow: var(--shadow);
     border-radius: 2px;
@@ -29,19 +29,19 @@ h2{
 }
 
 
-.personal_info{
+.personal_info {
     width: 100%px;
     border-radius: 2px;
     display: flex;
     background-color: var(--black-grey);
 }
 
-.img{
+.img {
     width: 200px;
     height: 220px;
 }
 
-.personal_info img{
+.personal_info img {
     border-radius: 2px;
     width: 200px;
     height: 220px;
@@ -52,7 +52,7 @@ h2{
     color: inherit;
 }
 
-.info{
+.info {
     width: 100%;
     color: #979ba2;
 }
@@ -67,17 +67,122 @@ h2{
     margin: 10px 0px 30px 40px;
 }
 
-.info span{
-   margin: 0px 0px 5px 40px;
+.info span {
+    margin: 0px 0px 5px 40px;
 }
 
-.info span i{
+.info span i {
     padding: 8px 5px 5px 5px;
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container {
+    display: grid;
+    grid-template-columns: 70% 1% auto;
+
+}
+
+.divider {
+    height: 1px;
+    margin: 10px 30px 10px 30px;
+    background-color: #999999;
+}
+
+.dividerV {
+    height: 100%;
+    width: 1px;
+    margin: 30px 0px 30px 0px;
+    background-color: #999999;
+}
+
+/* .left {} */
+
+.profile,
+.formation,
+.experience,
+.proyects,
+.personal__data,
+.idioms,
+.skills {
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+}
+
+.profile p,
+.formation p,
+.experience p {
+    margin: 0;
+}
+
+.profile h2,
+.formation h2,
+.experience h2,
+.proyects h2 {
+    padding: 20px 0px 20px 0px;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 0px;
+}
+
+.inline__short {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inline__short img {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.location {
+    text-decoration: none;
+    color: var(--text-grey);
+}
+
+.location:visited {
+    color: var(--text-grey);
+    text-decoration: none;
+}
+
+.university {
+    margin-top: 20px;
+}
 
 
-.footer{
+/* .right {} */
+
+.personal__data p,
+.idioms p {
+    padding-left: 10px;
+}
+
+.active {
+    color: var(--text-grey)
+}
+
+.techs {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    grid-auto-rows: minmax(30px, 30px);
+    grid-gap: 30px;
+}
+
+.techs img {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.footer {
     text-align: center;
     background-color: #f2f4f6;
     margin: 40px 0px 0px 0px;
@@ -87,16 +192,8 @@ h2{
     padding: 20px;
 }
 
-@media screen and (max-width: 1280px){
-
-    .personalInfo{
-        margin-left: 0;
+@media screen and (max-width: 1280px) {
+    .techs{
+        grid-template-columns: repeat(3, 30px);
     }
-
 }
-
-
-
-
-
-
